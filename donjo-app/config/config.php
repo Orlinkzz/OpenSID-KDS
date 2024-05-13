@@ -392,7 +392,7 @@ $config['cache_query_string'] = false;
 | https://codeigniter.com/user_guide/libraries/encryption.html
 |
 */
-$config['encryption_key'] = 'lumbungkomunitas';
+$config['encryption_key'] = 'kimuntilikomunitas';
 
 /*
 |--------------------------------------------------------------------------
@@ -446,7 +446,7 @@ $config['encryption_key'] = 'lumbungkomunitas';
 |
 */
 $config['sess_driver']             = 'files';
-$config['sess_cookie_name']        = 'ci_session';
+$config['sess_cookie_name']        = 'ki_session';
 $config['sess_expiration']         = 7200;
 $config['sess_save_path']          = sys_get_temp_dir();
 $config['sess_match_ip']           = false;
@@ -517,8 +517,8 @@ $config['global_xss_filtering'] = false;
 | 'csrf_exclude_uris' = Array of URIs which ignore CSRF checks
 */
 $config['csrf_protection']   = true;
-$config['csrf_token_name']   = 'sidcsrf';
-$config['csrf_cookie_name']  = 'sidcsrf';
+$config['csrf_token_name']   = 'kicsrf';
+$config['csrf_cookie_name']  = 'kicsrf';
 $config['csrf_expire']       = 7200;
 $config['csrf_regenerate']   = true;
 $config['csrf_exclude_uris'] = ['api.*+'];
@@ -606,15 +606,22 @@ $config['proxy_ips'] = '';
 | - Youtube OpenDesa
 |
 */
-$config['nama_aplikasi']  = 'OpenSID';
-$config['nama_lembaga']   = 'OpenDesa';
-$config['fb_opendesa']    = 'https://www.facebook.com/groups/komunitasopendesa';
-$config['tg_opendesa']    = 'https://t.me/komunitasopensidstop';
-$config['tg_kontributor'] = 'https://t.me/+mi5ydVtVfmw0YWY1';
-$config['github']         = 'https://github.com/OpenSID/OpenSID';
-$config['website']        = 'https://opendesa.id';
-$config['forum']          = 'https://forum.opendesa.id';
-$config['youtube']        = 'https://www.youtube.com/KomunitasOpenSID-OpenDesa';
+$config['nama_aplikasi']  = 'SID KDS';
+$config['nama_lembaga']   = 'Kedungsana';
+$config['fb_opendesa']    = '';
+$config['tg_opendesa']    = '';
+$config['tg_kontributor'] = '';
+$config['github']         = '';
+$config['website']        = '';
+$config['forum']          = '';
+$config['youtube']        = '';
+// $config['fb_opendesa']    = 'https://www.facebook.com/groups/komunitasopendesa';
+// $config['tg_opendesa']    = 'https://t.me/komunitasopensidstop';
+// $config['tg_kontributor'] = 'https://t.me/+mi5ydVtVfmw0YWY1';
+// $config['github']         = 'https://github.com/OpenSID/OpenSID';
+// $config['website']        = 'https://opendesa.id';
+// $config['forum']          = 'https://forum.opendesa.id';
+// $config['youtube']        = 'https://www.youtube.com/KomunitasOpenSID-OpenDesa';
 
 /*
 |--------------------------------------------------------------------------
@@ -625,8 +632,10 @@ $config['youtube']        = 'https://www.youtube.com/KomunitasOpenSID-OpenDesa';
 | - Token Pantau (Default)
 |
 */
-$config['server_pantau'] = 'https://pantau.opensid.my.id';
-$config['token_pantau']  = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6bnVsbCwidGltZXN0YW1wIjoxNjAzNDY2MjM5fQ.HVCNnMLokF2tgHwjQhSIYo6-2GNXB4-Kf28FSIeXnZw';
+$config['server_pantau'] = '';
+$config['token_pantau']  = '';
+// $config['server_pantau'] = 'https://pantau.opensid.my.id';
+// $config['token_pantau']  = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6bnVsbCwidGltZXN0YW1wIjoxNjAzNDY2MjM5fQ.HVCNnMLokF2tgHwjQhSIYo6-2GNXB4-Kf28FSIeXnZw';
 
 /*
 |--------------------------------------------------------------------------
@@ -636,7 +645,8 @@ $config['token_pantau']  = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6bnVsbCw
 | - Server layanan (Default)
 |
 */
-$config['server_layanan'] = 'https://layanan.opendesa.id';
+$config['server_layanan'] = '';
+// $config['server_layanan'] = 'https://layanan.opendesa.id';
 
 /*
 |--------------------------------------------------------------------------
@@ -644,7 +654,8 @@ $config['server_layanan'] = 'https://layanan.opendesa.id';
 |--------------------------------------------------------------------------
 |
 */
-$config['rilis_umum'] = 'https://api.github.com/repos/opensid/opensid/releases/latest';
+$config['rilis_umum'] = '';
+// $config['rilis_umum'] = 'https://api.github.com/repos/opensid/opensid/releases/latest';
 
 /*
 |--------------------------------------------------------------------------
